@@ -1,0 +1,64 @@
+.mainlog {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+.loginPage {
+  margin-top: 5vh;
+}
+
+.loginForm {
+  text-align: center;
+  margin-left: 10vw;
+  background-color: #fff;
+  width: 25vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    height: 90vh;
+  }
+
+  h1 {
+    font-weight: 350;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    font-size: 3em;
+  }
+
+  label {
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    font-size: 1.1em;
+  }
+
+  input {
+    width: 80%;
+    height: 5vh;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3%;
+  }
+
+  button {
+    width: 30%;
+    height: 10%;
+    background-color: #fff;
+    border-radius: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-right: 10%;
+    font-size: 1.2em;
+  }
+
+  .btn {
+    font-size: 1.2em;
+    border: none;
+    margin-left: 48%;
+    margin-top: 5%;
+    text-decoration: none;
+    color: #000;
+  }
+}

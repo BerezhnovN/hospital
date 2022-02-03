@@ -1,0 +1,38 @@
+.main {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-bottom: 4vh;
+}
+
+form {
+  margin-top: 3vh;
+  display: flex;
+}
+
+button {
+  margin-top: 5.2vh;
+  margin-left: 2vh;
+  width: 8vw;
+  height: 4.3vh;
+  background-color: #fff;
+  border-radius: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1em;
+  min-width: 80px;
+  align-self: end;
+}
+
+select {
+  width: 18vw;
+  height: 4vh;
+}
+
+label {
+  margin-left: 2vw;
+}
+
+input {
+  border-radius: 3%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 18vw;
+  height: 4vh;
+}

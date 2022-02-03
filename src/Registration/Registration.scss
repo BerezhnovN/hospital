@@ -1,0 +1,64 @@
+.mainReg {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.RegistrationForm {
+  text-align: center;
+  margin-left: 10vw;
+  background-color: #fff;
+  width: 25vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+
+  img {
+    height: 90vh;
+  }
+
+  h1 {
+    font-weight: 350;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 3em;
+    margin-right: 10%;
+  }
+
+  label {
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    font-size: 1.1em;
+  }
+
+  input {
+    margin-left: 10%;
+    width: 80%;
+    height: 5vh;
+    margin-bottom: 3%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3%;
+  }
+
+  button {
+    width: 40%;
+    height: 8%;
+    background-color: #fff;
+    border-radius: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-right: 9%;
+    font-size: 1.1em;
+  }
+
+  .btn {
+    border: none;
+    font-size: 1.2em;
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 12%;
+    text-decoration: none;
+    color: #000;
+  }
+}

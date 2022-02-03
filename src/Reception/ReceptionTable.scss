@@ -1,0 +1,41 @@
+table {
+  margin-top: 5vh;
+  width: 90vw;
+  margin-left: 5vw;
+  border-spacing: 0;
+  border-bottom: 1.5px solid black;
+  thead {
+    background-color: hsl(0, 0%, 77%);
+    border-color: black;
+    height: 2.5em;
+
+    th {
+      font-size: 1.2em;
+      font-weight: 400;
+    }
+  }
+
+  tbody {
+    background-color: #fff;
+    border-color: #c4c4c4;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: 300;
+
+    img {
+      margin-left: 1vw;
+    }
+
+    td {
+      line-height: 2.5;
+      text-align: center;
+      height: 3vh;
+      border-right: 1.5px solid black;
+      font-family: Roboto;
+    }
+
+    .border {
+      border-left: 1.5px solid black;
+    }
+  }
+}
